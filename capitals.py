@@ -150,3 +150,23 @@ states = [
     "name": "Wyoming",
     "capital": "Cheyenne"
 }]
+
+
+
+def game():
+    points = 0 
+    action = input("Welcone to the capital game! would you like to play?\n")
+    if action == 'yes' or 'Yes':
+            for state in states:
+                question = input(f"what is the capital of {state['name'].format()}\n" )
+                if question == state['capital']:
+                    points += 1
+                    print("CORRECT")
+                    print(f"Points: {points}")
+                elif question != state['capital']:
+                    points = points
+                    print("Wrong")
+                    print(f"Points: {points}")
+                    
+
+game()
