@@ -1,3 +1,6 @@
+from tkinter.messagebox import YES
+
+
 states = [
 {
     "name": "Alabama",
@@ -156,13 +159,12 @@ states = [
 # Here we created a global variable called active and passed it in each function in order for the fame to 
 # Begine or stop. 
 
-active = True
-def game(active):
-    while(active): 
+
+def game():
         correct = 0 
         wrong = 0 
         action = input("Welcone to the capital game! would you like to play?\n")
-        if action == 'yes' or 'Yes':
+        if action == 'yes' or action =='Yes':
                 for state in states:
                     question = input(f"what is the capital of {state['name'].format()}\n" )
                     if question == state['capital']:
@@ -178,19 +180,19 @@ def game(active):
 
 def new_game():
         play_again = input("Want to play again?\n")
-        if play_again == 'yes' or 'Yes':
-            active = True
-        elif new_game != 'yes' or "yes":
-            active = False
+        if play_again == 'yes' or play_again == 'Yes':
+            game()
+        else:
+            no()
           
 
         
 
-game(active)
 
 def no():
     print("bye")
 
+game()
 
 
 
