@@ -1,5 +1,6 @@
 # state_capitals
 Python Terminal Quiz Game
+
 Do you know all 50 capitals in the US? This fun interactive game allows you to put your knowledge to the test! In this game, users are prompted to type the respective answer for each state prompt. Get all 50 right to win!
 
 
