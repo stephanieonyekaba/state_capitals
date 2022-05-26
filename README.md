@@ -6,7 +6,7 @@ Do you know all 50 capitals in the US? This fun interactive game allows you to p
 
 
 
-# To play the game:
+## To play the game:
 
 1. Ensure you have the latest version of python (python3)
 installed. 
