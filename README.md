@@ -14,3 +14,5 @@ installed.
 3. Open this game on your CLI by typing 'python3 capitals.py'
 
 ##
+
+<img src="https://i.ibb.co/h9DrwJV/2000px-Blank-US-map-borders-58b9d2375f9b58af5ca8a7fa.jpg">
