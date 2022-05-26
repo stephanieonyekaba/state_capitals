@@ -13,4 +13,4 @@ installed.
 2. Fork and clone this repository. 
 3. Open this game on your CLI by typing 'python3 capitals.py'
 
-#
+##
